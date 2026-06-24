@@ -1,5 +1,5 @@
 fastapi==0.110.0
-pydantic==1.10.13       # incompatible with FastAPI 0.110 (needs v2)
+pydantic==2.0.0       # compatible with FastAPI 0.110
 uvicorn==0.29.0
-reqests==2.31.0         # misspelled — should be 'requests'
-pytest123==7.0.0        # doesn't exist on PyPI
+requests==2.31.0         # corrected spelling
+# pytest123==7.0.0        # removed as it doesn't exist on PyPI
